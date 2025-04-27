@@ -1,0 +1,27 @@
+{
+  "id": "uuvu76i94",
+  "name": "main",
+  "sceneId": "uuvu76i94",
+  "data": [
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "auto-global-fog",
+      "name": "Global fog",
+      "type": "global_fog",
+      "fog": {
+        "type": "density",
+        "color": "#b8f8ff",
+        "density": 0.005,
+        "near": 100,
+        "far": 1000
+      }
+    }
+  ]
+}
