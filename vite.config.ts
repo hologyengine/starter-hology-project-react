@@ -8,17 +8,17 @@ export default defineConfig({
     format: 'es'
   },
   esbuild: {
-    target: "es2020",
+    target: 'es2022'
   },
   plugins: [
     hologyBuild(),
     react({
       babel: {
         plugins: [
-          ["@babel/plugin-proposal-decorators", { version: "2023-11" }],
-          ["module:@preact/signals-react-transform"],
-        ],
-      },
-    }),
-  ],
+          ['@babel/plugin-proposal-decorators', { version: '2023-11' }],
+          ['module:@preact/signals-react-transform']
+        ]
+      }
+    })
+  ]
 })
