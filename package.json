@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@dimforge/rapier3d-compat": "^0.16.0",
-    "@hology/core": "^0.0.170",    
+    "@hology/core": "^0.0.173",
     "@hology/react": "^0.0.16",
     "@preact/signals-react": "^3.0.1",
     "@types/three": "^0.169.0",
