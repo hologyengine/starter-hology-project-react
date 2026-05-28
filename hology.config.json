@@ -3,5 +3,6 @@
   "staticPath": "public",
   "dataPath": "public/data",
   "shadersPath": "src/shaders",
-  "actorsPath": "src/actors"
+  "actorsPath": "src/actors",
+  "componentsPath": "src/components"
 }
